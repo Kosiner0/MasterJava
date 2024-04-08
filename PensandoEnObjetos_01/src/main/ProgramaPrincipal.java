@@ -53,28 +53,28 @@ public class ProgramaPrincipal {
                 case 3:
                     break;
                 case 4:
-                	//Datos Equipo1
-                	String nombreEquipo1 = "Paris Saint-Germain";
-                	Jugador jugador1 = new Jugador(1, "Lionel Messi", 700, "Paris Saint-Germain");
-                    Jugador jugador2 = new Jugador(2, "Cristiano Ronaldo", 800, "Paris Saint-Germain");
-                    Jugador jugador3 = new Jugador(3, "Neymar Jr.", 400, "Paris Saint-Germain");              
-                    listaJugadores1.add(jugador1);
-                    listaJugadores1.add(jugador2);
-                    listaJugadores1.add(jugador3);
-                    Collections.sort(listaJugadores1, Comparator.comparingInt(Jugador::getGolesMarcados).reversed());                   
-                	equipo1 = new Equipo(nombreEquipo1,listaJugadores1 );
-                	
-                	//Datos equipo2
-                	String nombreEquipo2 = "Liverpool";
-                	Jugador jugador4 = new Jugador(4, "Robert Lewandowski", 650, "Liverpool");
-                    Jugador jugador5 = new Jugador(5, "Kylian Mbappé", 200, "Liverpool");
-                    Jugador jugador6 = new Jugador(6, "Mohamed Salah", 300, "Liverpool");
-                    listaJugadores2.add(jugador4);
-                    listaJugadores2.add(jugador5);
-                    listaJugadores2.add(jugador6);
-                    Collections.sort(listaJugadores2, Comparator.comparingInt(Jugador::getGolesMarcados).reversed());                   
-                    equipo2 = new Equipo(nombreEquipo2,listaJugadores2 );
-                    
+		    //Datos Equipo1
+		    String nombreEquipo1 = "Paris Saint-Germain";
+		    Jugador jugador1 = new Jugador(1, "Lionel Messi", 700, "Paris Saint-Germain");
+		    Jugador jugador2 = new Jugador(2, "Cristiano Ronaldo", 800, "Paris Saint-Germain");
+		    Jugador jugador3 = new Jugador(3, "Neymar Jr.", 400, "Paris Saint-Germain");              
+		    listaJugadores1.add(jugador1);
+		    listaJugadores1.add(jugador2);
+		    listaJugadores1.add(jugador3);
+		    Collections.sort(listaJugadores1, Comparator.comparingInt(Jugador::getGolesMarcados).reversed());                   
+		    equipo1 = new Equipo(nombreEquipo1,listaJugadores1 );
+			
+		    //Datos equipo2
+		    String nombreEquipo2 = "Liverpool";
+		    Jugador jugador4 = new Jugador(4, "Robert Lewandowski", 650, "Liverpool");
+		    Jugador jugador5 = new Jugador(5, "Kylian Mbappé", 200, "Liverpool");
+		    Jugador jugador6 = new Jugador(6, "Mohamed Salah", 300, "Liverpool");
+		    listaJugadores2.add(jugador4);
+		    listaJugadores2.add(jugador5);
+		    listaJugadores2.add(jugador6);
+		    Collections.sort(listaJugadores2, Comparator.comparingInt(Jugador::getGolesMarcados).reversed());                   
+		    equipo2 = new Equipo(nombreEquipo2,listaJugadores2 );
+		    
                     
                     //Datos equipo3
                     String nombreEquipo3 = "Manchester City";
